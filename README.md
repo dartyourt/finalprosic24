@@ -12,6 +12,7 @@ you have to installed some libraries needed!
 + firebase-admin
 + streamlit
 + google.generativeai
+
 etc...
 
 ## NOTES
