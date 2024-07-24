@@ -6,11 +6,12 @@ as note, it only can run locally!
 **DISCLAIMER** 
 
 you have to installed some libraries needed!
-+cv2
-+firebase
-+firebase-admin
-+streamlit
-+google.generativeai
+
++ cv2
++ firebase
++ firebase-admin
++ streamlit
++ google.generativeai
 etc...
 
 1. firebasedata2.ipynb = running firebase to get and upload data to firebase from sensor
