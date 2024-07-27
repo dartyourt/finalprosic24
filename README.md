@@ -32,7 +32,7 @@ https://www.canva.com/design/DAGL9aJkblk/YHXwoZku5NGKdKIjajRF0g/edit
 
 ### And Here is the Presentasion Link!
 
-https://bit.ly/PresentasiDeonTeam
+https://bit.ly/PresentasiDeonTeamSIC2024
 
 <div align="center">
   
