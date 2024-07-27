@@ -1,9 +1,10 @@
-<img align="center" src="https://github.com/dartyourt/finalprosic24/blob/main/Logo/logods.png" />
+<img align="right" src="https://github.com/dartyourt/finalprosic24/blob/main/Logo/logods.png" />
 
 # DeonScalp: Web Deteksi Penyakit Kulit Kepala
 This project aims to develop an IoT and AI-based scalp disease detection system using an ESP32 microcontroller. The system will collect scalp image data using a camera activated by a LIDAR sensor and a buzzer, then analyze the data using machine learning to provide diagnosis and treatment recommendations.
 
-as note, it only can run locally!
+We are so sorry, The APP could only run locally!
+> It needs to access the camera hardware so we cannot deploy the Web App publicly
 
 ## DISCLAIMER 
 
@@ -18,9 +19,8 @@ you have to installed some libraries needed:
 
 etc...
 
-## NOTES
-1. firebasedata2.ipynb = running firebase to get and upload data to firebase from sensor
-2. scalp_learn.ipynb   = model that had been created for scalp classification
-3. deons.py            = streamlit web for running the app locally (cause it needs to access camera hardware
-4. Dataset-Image       = dataset that we use for training the model
-5. datatrain           = data train for predictions
+## HOW TO RUN
+1. In fact, it is just simply by running the Web App code named **streamlitv2.py**
+2. But, you have to installed some libraries needed cuz it will run locally in your computer
+3. You have to download the credentials.json -- i already give the link to drive in Web App folder
+4. Download the model named **scalp_condition_classifier_model.h5** you can found it in Models folder
