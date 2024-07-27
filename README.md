@@ -26,5 +26,6 @@ etc...
 4. Download the model named **scalp_condition_classifier_model.h5** you can found it in Models folder
 
 <div align="center">
+  
 ![thanks](https://github.com/user-attachments/assets/af9ab71a-1b54-47f0-9373-43c32ee0f2c3)
 
