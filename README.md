@@ -25,6 +25,10 @@ etc...
 3. You have to download the credentials.json -- i already give the link to drive in Web App folder
 4. Download the model named **scalp_condition_classifier_model.h5** you can found it in Models folder
 
+### Here is The Slide Deck Documentation for Our Project
+
+https://www.canva.com/design/DAGL9aJkblk/YHXwoZku5NGKdKIjajRF0g/edit
+
 <div align="center">
   
 ![thanks](https://github.com/user-attachments/assets/af9ab71a-1b54-47f0-9373-43c32ee0f2c3)
