@@ -30,6 +30,10 @@ etc...
 
 https://www.canva.com/design/DAGL9aJkblk/YHXwoZku5NGKdKIjajRF0g/edit
 
+### And Here is the Presentasion Link!
+
+https://bit.ly/PresentasiDeonTeam
+
 <div align="center">
   
 ![thanks](https://github.com/user-attachments/assets/af9ab71a-1b54-47f0-9373-43c32ee0f2c3)
