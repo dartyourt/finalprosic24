@@ -1,5 +1,6 @@
 # Notes!
 If you want to run the Web App you need the credentials.json to access the firebase data
+
 Make sure you run the **Streamlitv2**!
 
 here is the link for the credentials:
