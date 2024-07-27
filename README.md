@@ -24,3 +24,5 @@ etc...
 2. But, you have to installed some libraries needed cuz it will run locally in your computer
 3. You have to download the credentials.json -- i already give the link to drive in Web App folder
 4. Download the model named **scalp_condition_classifier_model.h5** you can found it in Models folder
+
+<img align="center" src="https://tenor.com/view/funny-anime-gif-5246998878331091072"/>
