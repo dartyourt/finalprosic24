@@ -1,11 +1,11 @@
-# finalprosic24
-Final Project SIC 2024 Tim DeonScalp
+# DeonScalp: Web Deteksi Penyaakit Kulit Kepala
+This project aims to develop an IoT and AI-based scalp disease detection system using an ESP32 microcontroller. The system will collect scalp image data using a camera activated by a LIDAR sensor and a buzzer, then analyze the data using machine learning to provide diagnosis and treatment recommendations.
 
 as note, it only can run locally!
 
 ## DISCLAIMER 
 
-you have to installed some libraries needed!
+you have to installed some libraries needed:
 
 + cv2
 + firebase
