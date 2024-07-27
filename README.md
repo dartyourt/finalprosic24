@@ -1,4 +1,5 @@
-<img align="center"> https://github.com/dartyourt/finalprosic24/blob/main/Logo/logods.png
+<img align="center"  src=https://github.com/dartyourt/finalprosic24/blob/main/Logo/logods.png />
+
 # DeonScalp: Web Deteksi Penyakit Kulit Kepala
 This project aims to develop an IoT and AI-based scalp disease detection system using an ESP32 microcontroller. The system will collect scalp image data using a camera activated by a LIDAR sensor and a buzzer, then analyze the data using machine learning to provide diagnosis and treatment recommendations.
 
