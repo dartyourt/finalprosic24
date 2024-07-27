@@ -20,10 +20,11 @@ you have to installed some libraries needed:
 etc...
 
 ## HOW TO RUN
-1. In fact, it is just simply by running the Web App code named **streamlitv2.py**
-2. But, you have to installed some libraries needed cuz it will run locally in your computer
-3. You have to download the credentials.json -- i already give the link to drive in Web App folder
-4. Download the model named **scalp_condition_classifier_model.h5** you can found it in Models folder
+1. Ensure the required libraries are installed, as the application will run locally on your computer.
+2. Download the credentials.json file from the link provided in the Web App folder.
+3. Download the model named scalp_condition_classifier_model.h5, which can be found in the Models folder.
+4. Now, you can run the Web App code named **streamlitv2.py.**
+5. Enjoy!
 
 ### Here is The Slide Deck Documentation for Our Project
 
