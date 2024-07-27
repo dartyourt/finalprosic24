@@ -15,6 +15,7 @@ if not firebase_admin._apps:
 
 # Set up Firebase reference
 ref = db.reference('/')
+condition_name = None
 
 # Load the scalp condition classifier model
 model = load_model('scalp_condition_classifier_model.h5', compile=False)
@@ -67,6 +68,7 @@ class VideoTransformer(VideoTransformerBase):
         return 9
 
     def process_image(self, img):
+        global condition_name 
         print("Image captured and processing...")
         pil_image = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
         pil_image = pil_image.resize((img_height, img_width))
@@ -82,10 +84,9 @@ class VideoTransformer(VideoTransformerBase):
 
         print(f"Condition: {condition_name}")
 
-        # Display the analysis result in Streamlit
-        st.markdown(f"**Condition:** {condition_name}")
 
 def main():
+    global condition_name
     st.title("Scalp Condition Capture")
 
     st.write("""
@@ -103,6 +104,9 @@ def main():
             st.write("Adjust your head position in front of the camera.")
         else:
             st.write("Waiting for the distance to be less than 10...")
+    # Display the analysis result in Streamlit
+    if condition_name is not None:
+        st.markdown(f"**Condition:** {condition_name}")
 
 if __name__ == "__main__":
     main()
