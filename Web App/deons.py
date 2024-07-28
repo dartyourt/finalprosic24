@@ -10,14 +10,14 @@ from IPython.display import Markdown, clear_output, display
 import time
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate("credentials.json")
-    firebase_admin.initialize_app(cred, {"databaseURL": "https://scalp-detection-default-rtdb.asia-southeast1.firebasedatabase.app/"})
+    cred = credentials.Certificate("credentials.json") #you must have the credentials
+    firebase_admin.initialize_app(cred, {"databaseURL": "https://xx"}) #and the url to the database
 
 # Set up Firebase reference
 ref = db.reference('/')
 
 # Google Generative AI configuration
-API_KEY = 'AIzaSyCxwAg3w7e92R10w8eEQg55AahWBqxEfKM'
+API_KEY = 'Use your API_KEY'
 prompt = 'You are an observer and expertise of scalp disease, provide the type of scalp condition, its underlying causes, and some simple, practical tips or tasks to help manage or alleviate the condition from the image based on your expertise.'
 
 class VideoTransformer(VideoTransformerBase):
