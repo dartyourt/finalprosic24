@@ -10,8 +10,8 @@ from tensorflow.keras.models import load_model
 import time
 
 if not firebase_admin._apps:
-    cred = credentials.Certificate("credentials.json")
-    firebase_admin.initialize_app(cred, {"databaseURL": "https://scalp-detection-default-rtdb.asia-southeast1.firebasedatabase.app/"})
+    cred = credentials.Certificate("credentials.json") #you must have the credentials
+    firebase_admin.initialize_app(cred, {"databaseURL": "https://xx"}) #and the url to the database
 
 # Set up Firebase reference
 ref = db.reference('/')
