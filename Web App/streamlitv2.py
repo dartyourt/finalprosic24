@@ -10,8 +10,8 @@ from tensorflow.keras.models import load_model
 
 # Authenticate to Firebase
 if not firebase_admin._apps:
-    cred = credentials.Certificate("credentials.json")
-    firebase_admin.initialize_app(cred, {"databaseURL": "https://scalp-detection-default-rtdb.asia-southeast1.firebasedatabase.app/"})
+    cred = credentials.Certificate("credentials.json") #you must have the credentials.json file from the firebase
+    firebase_admin.initialize_app(cred, {"databaseURL": "https://xx"}) #and the url to the database
 
 # Set up the reference to the database path you want to listen to
 ref = db.reference('/')
@@ -79,7 +79,7 @@ if st.button("Start"):
         st.markdown(f"Condition: {condition_name}")
         
         # Google Generative AI configuration
-        API_KEY = 'AIzaSyCxwAg3w7e92R10w8eEQg55AahWBqxEfKM'
+        API_KEY = 'Use Your API KEY' #Here input the API_KEY
         prompt = 'You are an observer and expertise of scalp disease, give the suggestion for the condition and some simple, practical tips or tasks to help manage or alleviate the condition'
         
         genai.configure(api_key=API_KEY)
